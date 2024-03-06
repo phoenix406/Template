@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#030303;
+}
+
+section{
+    font-family:Montserrat,sans-serif !important 
+}
+
+section::after{
+    content: "";
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+}
+
+h1 {
+    color: gold;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left:300px;
+    padding-top: 30px;
+}
+
+p {
+    color: white;
+    height: 200px;
+    width:300px ;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+h3 {color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+
+}
+
+a {
+    color: goldenrod;
+}
+
+button {
+    padding: 15px;
+    background-color: goldenrod;
+    border-radius: 30px;
+    width: 200px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+#more {
+    color: white;
+}
+
+.image {
+    margin-left: 650px;
+    margin-top: -500px;
+    display: inline-block;
+}
